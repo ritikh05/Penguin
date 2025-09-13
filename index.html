@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sushree Anjali Swain - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Background Elements -->
+    <div class="bg-decoration">
+        <div class="floating-shape shape-1"></div>
+        <div class="floating-shape shape-2"></div>
+        <div class="floating-shape shape-3"></div>
+        <div class="floating-shape shape-4"></div>
+        <div class="floating-shape shape-5"></div>
+    </div>
+
+    <!-- Loading Screen -->
+    <div id="loader" class="loader">
+        <div class="loader-content">
+            <div class="loader-spinner"></div>
+            <p>Loading Portfolio...</p>
+        </div>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">Sushree Anjali Swain</span>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link active" data-target="home">
+                    <i class="fas fa-home"></i>
+                    <span>Home</span>
+                </a>
+                <a href="#about" class="nav-link" data-target="about">
+                    <i class="fas fa-user"></i>
+                    <span>About</span>
+                </a>
+                <a href="#education" class="nav-link" data-target="education">
+                    <i class="fas fa-graduation-cap"></i>
+                    <span>Education</span>
+                </a>
+                <a href="#projects" class="nav-link" data-target="projects">
+                    <i class="fas fa-code"></i>
+                    <span>Projects</span>
+                </a>
+                <a href="#goals" class="nav-link" data-target="goals">
+                    <i class="fas fa-target"></i>
+                    <span>Goals</span>
+                </a>
+                <a href="#contact" class="nav-link" data-target="contact">
+                    <i class="fas fa-envelope"></i>
+                    <span>Contact</span>
+                </a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <div class="hero-avatar">
+                        <div class="avatar-ring"></div>
+                        <div class="avatar-image">
+                            <img src="anjali.jpg" alt="Sushree Anjali Swain" class="profile-img">
+                            <div class="avatar-fallback">
+                                <i class="fas fa-user-circle"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hero-text">
+                        <h1 class="hero-title">
+                            <span class="title-line">Hi, I'm</span>
+                            <span class="title-name">Sushree Anjali Swain</span>
+                        </h1>
+                        <div class="hero-subtitle">
+                            <span class="typing-text"></span>
+                            <span class="cursor">|</span>
+                        </div>
+                        <p class="hero-description">
+                            Final year CSE student specializing in Data Science with hands-on experience in machine learning, 
+                            data visualization, and problem-solving. Ready to make an impact in the tech world.
+                        </p>
+                        <div class="hero-buttons">
+                            <a href="#contact" class="btn btn-primary">
+                                <i class="fas fa-envelope"></i>
+                                Get In Touch
+                            </a>
+                            <a href="#projects" class="btn btn-secondary">
+                                <i class="fas fa-eye"></i>
+                                View Projects
+                            </a>
+                        </div>
+                        <div class="hero-stats">
+                            <div class="stat-item">
+                                <span class="stat-number">8.82</span>
+                                <span class="stat-label">CGPA</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">2+</span>
+                                <span class="stat-label">Projects</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">2026</span>
+                                <span class="stat-label">Graduate</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">About Me</h2>
+                    <p class="section-subtitle">Get to know more about my journey and aspirations</p>
+                </div>
+                <div class="about-content">
+                    <div class="about-text">
+                        <div class="text-card">
+                            <div class="card-icon">
+                                <i class="fas fa-user-graduate"></i>
+                            </div>
+                            <div class="card-content">
+                                <h3>Student & Learner</h3>
+                                <p>Final year CSE student specializing in Data Science with a passion for continuous learning and growth.</p>
+                            </div>
+                        </div>
+                        <div class="text-card">
+                            <div class="card-icon">
+                                <i class="fas fa-chart-line"></i>
+                            </div>
+                            <div class="card-content">
+                                <h3>Data Enthusiast</h3>
+                                <p>Experienced with machine learning models, data visualization tools, and analytical problem-solving.</p>
+                            </div>
+                        </div>
+                        <div class="text-card">
+                            <div class="card-icon">
+                                <i class="fas fa-briefcase"></i>
+                            </div>
+                            <div class="card-content">
+                                <h3>Future Professional</h3>
+                                <p>Soon joining <strong>GyanSys</strong> as an Intern to gain practical industry experience.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-skills">
+                        <h3>Skills & Technologies</h3>
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <i class="fab fa-python"></i>
+                                <span>Python</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-database"></i>
+                                <span>SQL</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-brain"></i>
+                                <span>Machine Learning</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-chart-bar"></i>
+                                <span>Data Visualization</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-html5"></i>
+                                <span>HTML/CSS</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-js"></i>
+                                <span>JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Education</h2>
+                    <p class="section-subtitle">My academic journey and achievements</p>
+                </div>
+                <div class="education-timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-marker">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <div class="timeline-card">
+                                <div class="card-header">
+                                    <h3>B.Tech in Computer Science & Engineering (Data Science)</h3>
+                                    <span class="duration">2022 — 2026</span>
+                                </div>
+                                <div class="card-body">
+                                    <p class="institution">ITER, SOA University</p>
+                                    <div class="grade">
+                                        <span class="grade-label">CGPA:</span>
+                                        <span class="grade-value">8.82</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-marker">
+                            <i class="fas fa-school"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <div class="timeline-card">
+                                <div class="card-header">
+                                    <h3>Higher Secondary (Science)</h3>
+                                    <span class="duration">2022</span>
+                                </div>
+                                <div class="card-body">
+                                    <p class="institution">Oneness Secondary School</p>
+                                    <div class="grade">
+                                        <span class="grade-label">Percentage:</span>
+                                        <span class="grade-value">79.8%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-marker">
+                            <i class="fas fa-book"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <div class="timeline-card">
+                                <div class="card-header">
+                                    <h3>Matriculation</h3>
+                                    <span class="duration">2020</span>
+                                </div>
+                                <div class="card-body">
+                                    <p class="institution">Jaga Mata School</p>
+                                    <div class="grade">
+                                        <span class="grade-label">Percentage:</span>
+                                        <span class="grade-value">93%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Projects</h2>
+                    <p class="section-subtitle">Showcasing my technical projects and innovations</p>
+                </div>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <div class="project-icon">
+                                <i class="fas fa-seedling"></i>
+                            </div>
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <button class="project-link">
+                                        <i class="fas fa-eye"></i>
+                                    </button>
+                                    <button class="project-link">
+                                        <i class="fab fa-github"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-category">AI & IoT</div>
+                            <h3 class="project-title">Bhumi - Smart Agriculture System</h3>
+                            <p class="project-description">
+                                An AI-powered platform for farmers that predicts soil type, analyzes fertility using IoT sensor 
+                                inputs, and recommends suitable crops with fertilizer suggestions and plant disease detection.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">AI/ML</span>
+                                <span class="tech-tag">IoT</span>
+                                <span class="tech-tag">Python</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image">
+                            <div class="project-icon">
+                                <i class="fas fa-globe"></i>
+                            </div>
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <button class="project-link">
+                                        <i class="fas fa-eye"></i>
+                                    </button>
+                                    <button class="project-link">
+                                        <i class="fab fa-github"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-category">Web Development</div>
+                            <h3 class="project-title">Personal Portfolio Website</h3>
+                            <p class="project-description">
+                                A clean and responsive personal website built using modern web technologies. 
+                                Showcases profile, education, projects, and achievements with elegant design.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">HTML</span>
+                                <span class="tech-tag">CSS</span>
+                                <span class="tech-tag">JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Goals Section -->
+        <section id="goals" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Goals & Aspirations</h2>
+                    <p class="section-subtitle">My vision for the future and career objectives</p>
+                </div>
+                <div class="goals-content">
+                    <div class="goals-grid">
+                        <div class="goal-card">
+                            <div class="goal-icon">
+                                <i class="fas fa-chart-line"></i>
+                            </div>
+                            <h3>Career Path</h3>
+                            <p>Begin as a <strong>Data Analyst</strong> and evolve into a <strong>Data Scientist</strong>, 
+                            working on projects that drive data-informed decision making.</p>
+                        </div>
+                        <div class="goal-card">
+                            <div class="goal-icon">
+                                <i class="fas fa-tools"></i>
+                            </div>
+                            <h3>Technical Growth</h3>
+                            <p>Continuously sharpen skills in Python, SQL, Machine Learning, and data visualization 
+                            tools to stay at the forefront of technology.</p>
+                        </div>
+                        <div class="goal-card">
+                            <div class="goal-icon">
+                                <i class="fas fa-heart"></i>
+                            </div>
+                            <h3>Social Impact</h3>
+                            <p>Apply knowledge and skills to create solutions that bring both social and business 
+                            value to communities and organizations.</p>
+                        </div>
+                        <div class="goal-card">
+                            <div class="goal-icon">
+                                <i class="fas fa-expand-arrows-alt"></i>
+                            </div>
+                            <h3>Versatility</h3>
+                            <p>Explore multiple domains including <strong>Web Development</strong> to broaden 
+                            perspective and become a well-rounded technology professional.</p>
+                        </div>
+                    </div>
+                    <div class="personal-traits">
+                        <h3>How I See Myself</h3>
+                        <div class="traits-list">
+                            <div class="trait-item">
+                                <i class="fas fa-search"></i>
+                                <span>A curious learner who seeks deep understanding of concepts</span>
+                            </div>
+                            <div class="trait-item">
+                                <i class="fas fa-users"></i>
+                                <span>Team player who thrives in collaborative environments</span>
+                            </div>
+                            <div class="trait-item">
+                                <i class="fas fa-infinity"></i>
+                                <span>Multi-domain enthusiast who doesn't limit to one field</span>
+                            </div>
+                            <div class="trait-item">
+                                <i class="fas fa-sync-alt"></i>
+                                <span>Adaptable professional ready to contribute wherever needed</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Let's Connect</h2>
+                    <p class="section-subtitle">Ready to collaborate? Let's discuss opportunities</p>
+                </div>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="contact-card">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Email</h3>
+                                <p>sushreeanjaliswain@gmail.com</p>
+                                <a href="mailto:sushreeanjaliswain@gmail.com" class="contact-link">
+                                    Send Message
+                                </a>
+                            </div>
+                        </div>
+                        <div class="contact-card">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Phone</h3>
+                                <p>+91 6370684803</p>
+                                <a href="tel:+916370684803" class="contact-link">
+                                    Call Now
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-form">
+                        <h3>Send a Message</h3>
+                        <form class="form" id="contact-form">
+                            <div class="form-group">
+                                <input type="text" class="form-input" placeholder="Your Name" required>
+                                <i class="fas fa-user form-icon"></i>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-input" placeholder="Your Email" required>
+                                <i class="fas fa-envelope form-icon"></i>
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-input form-textarea" placeholder="Your Message" rows="4" required></textarea>
+                                <i class="fas fa-message form-icon"></i>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-full">
+                                <i class="fas fa-paper-plane"></i>
+                                Send Message
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2025 Sushree Anjali Swain. All rights reserved.</p>
+                    <p>Made with <i class="fas fa-heart"></i> and lots of code</p>
+                </div>
+                <div class="social-links">
+                    <a href="#" class="social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="#" class="social-link">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="#" class="social-link">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-to-top" id="scroll-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
